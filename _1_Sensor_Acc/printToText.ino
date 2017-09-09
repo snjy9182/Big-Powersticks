@@ -13,12 +13,9 @@ void draw() {
 		String value = mySerial.readString();
 		if (value != null ) {
 			output.println( value );
+			output.close()
 		}
 	}
 }
 
-void keyPressed() {
-	output.flush();
-	output.close();
-	exit();
-}
+]
