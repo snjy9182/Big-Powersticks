@@ -14,7 +14,6 @@ void setup()
   //accelemeter3.init();  
 	Serial.begin(9600);
 
-  output = createWriter("data.csv");
 }
 void loop()
 {
