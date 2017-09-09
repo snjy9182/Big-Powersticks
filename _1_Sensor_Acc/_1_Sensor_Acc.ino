@@ -18,10 +18,9 @@ void loop()
 	accelemeter.getXYZ(&x,&y,&z);
 	
 	accelemeter.getAcceleration(&ax,&ay,&az);
-  Serial.println("accleration of X/Y/Z: ");
-	Serial.print(ax + " g");
-	Serial.print(ay + " g");
-	Serial.print(az + " g");
+	Serial.println(ax);
+	Serial.println(ay);
+	Serial.println(az);
 	Serial.println("*************");
 	delay(400);
 }
