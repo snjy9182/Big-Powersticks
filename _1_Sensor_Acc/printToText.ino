@@ -9,7 +9,7 @@ voit setup() {
 
 
 void draw() {
-	if (muSerial.available() > 0) {
+	if (mySerial.available() > 0) {
 		String value = mySerial.readString();
 		if (value != null ) {
 			output.println( value );
@@ -17,5 +17,3 @@ void draw() {
 		}
 	}
 }
-
-]
