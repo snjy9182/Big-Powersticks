@@ -6,12 +6,16 @@ MMA7660 accelemeter1;
 //MMA7660 accelemeter2;
 //MMA7660 accelemeter3;
 
+PrintWriter output;
+
 void setup()
 {
 	accelemeter1.init();
   //accelemeter2.init();  
   //accelemeter3.init();  
 	Serial.begin(9600);
+
+  output = createWriter("data.csv");
 }
 void loop()
 {
@@ -41,9 +45,9 @@ void loop()
   //accelemeter3.getAcceleration(&ax3,&ay3,&az3);
 
   //Serial.println("Sensor 1");
-	Serial.println(ax1);
-	Serial.println(ay1);
-	Serial.println(az1);
+	output.println(ax1);
+	output.println(ay1);
+	output.println(az1);
 
   //Serial.println("Sensor 2");
   //Serial.println(ax2);
@@ -55,8 +59,12 @@ void loop()
   //Serial.println(ay3);
   //Serial.println(az3);
 	
-	Serial.println("*************");
-	
+	output.println("*************");
+  
+  output.flush();
+  output.close();
+
+
 	delay(5000);
 }
 
