@@ -54,7 +54,7 @@ void loop()
   //Serial.println(ay2);
   //Serial.println(az2);
 
-  //Serial.println("Sensor 3");
+  //Serial.println("Sensor 3");ard
   //Serial.println(ax3);
   //Serial.println(ay3);
   //Serial.println(az3);
