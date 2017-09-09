@@ -4,16 +4,24 @@
 #include "MMA7660.h"
 MMA7660 accelemeter;
 
-
 void setup()
 {
 	accelemeter1.init();
-  //accelemeter2.init();  
-  //accelemeter3.init();  
+
 	Serial.begin(9600);
-  int n = 0;
+
+	pinMode(0, OUTPUT);
+	pinMode(1, OUTPUT);
+//	pinMode(2, OUTPUT);
+
+	digitalWrite(0, LOW);
+	digitalWrite(1, HIGH);
+//	digitalWrite(2, HIGH);
+  	
+  	int n = 0;
 
 }
+
 void loop()
 {
 	int8_t x;
@@ -31,12 +39,13 @@ void loop()
 	
 	Serial.println("*************");
 
-  n = n + 1;
 
 
+	digitalWrite(n, LOW);
+	digitalWrite((n + 1) % 2, HIGH);
 
+	n = (n + 1) % 2;
 
-	delay(5000);
+	delay(200);
 }
-
 

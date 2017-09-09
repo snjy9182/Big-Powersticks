@@ -1,0 +1,16 @@
+PrintWriter output;
+
+void setup() {
+	output = createWriter("data.csv");
+}
+
+void loop() {
+
+	while(Serial.available() > 0) {
+	String value = Serial.readString();
+
+		if (value != null) {
+		output.println(value);
+		}
+	}	
+}
