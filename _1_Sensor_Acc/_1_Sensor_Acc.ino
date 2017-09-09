@@ -60,7 +60,7 @@ void loop()
 	Serial.print(az);
 	Serial.println(" g");
 	Serial.println("*************");
-	delay(1000);
+	delay(400);
 }
 
 
