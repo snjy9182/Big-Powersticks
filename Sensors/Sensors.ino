@@ -34,7 +34,7 @@ void loop()
   accelemeter.getXYZ(&x,&y,&z);
   accelemeter.getAcceleration(&ax,&ay,&az);
 
-   Serial.println("Sensor " + (n + 1) + ":");
+   Serial.println("Sensor " + (n + 1));
   Serial.println(ax);
   Serial.println(ay);
   Serial.println(az);
