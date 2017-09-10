@@ -20,7 +20,7 @@ shinyServer(function(input, output, session){
   })
   output$plot <- renderPlot({
     if (!is.null(data$data))
-      plot(data$data[[1]], type = 'l', main = "Sensor 1", xlab="Time (ms)", ylab="Acceleration (g)", xlim =  range(0:length(data$data[[1]])), ylim = range(-1:max(data$data[[1]])+0.3))
+      plot(data$data[[1]], type = 'l', main = paste(input$trackName, " Moodle Sensor 1", sep =""), xlab="Time (ms)", ylab="Acceleration (g)", xlim =  range(0:length(data$data[[1]])), ylim = range(-1:max(data$data[[1]])+0.3))
   }, width = 800, height = 300)
   observeEvent(input$create, {
     n = c(input$range1[[1]], input$range1[[2]], input$range2[[1]], input$range2[[2]],
