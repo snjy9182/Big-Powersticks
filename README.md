@@ -1,4 +1,4 @@
-# Big-Powersticks
+# Mobum
 
 ## Medhacks 2017
 
