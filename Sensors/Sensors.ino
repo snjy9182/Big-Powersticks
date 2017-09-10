@@ -12,15 +12,13 @@ void setup()
 
   Serial.begin(9600);
 
-  pinMode(0, OUTPUT);
-  pinMode(1, OUTPUT);
-//  pinMode(2, OUTPUT);
+  pinMode(8, OUTPUT);
+  pinMode(9, OUTPUT);
+  pinMode(10, OUTPUT);
 
-  digitalWrite(0, LOW);
-  digitalWrite(1, HIGH);
-//  digitalWrite(2, HIGH);
-
-
+  digitalWrite(8, HIGH);
+  digitalWrite(9, LOW);
+  digitalWrite(10, LOW);
 
 }
 
@@ -34,20 +32,27 @@ void loop()
   accelemeter.getXYZ(&x,&y,&z);
   accelemeter.getAcceleration(&ax,&ay,&az);
 
-   Serial.println("Sensor " + (n + 1));
-  Serial.println(ax);
-  Serial.println(ay);
-  Serial.println(az);
+
+  Serial.println("Sensor " + (n + 1));
+  Serial.println("x: " + ax);
+  Serial.println("y: " + ay);
+  Serial.println("z: " + az);
  
   Serial.println("*************");
 
 
 
-  digitalWrite(n, HIGH);
-  digitalWrite((n + 1) % 2, LOW);
+  digitalWrite(8, LOW);
+  digitalWrite(9, LOW);
+  digitalWrite(10, LOW);
 
-  n = (n + 1) % 2;
+  n = (n + 1) % 3;
+
+  digitalWrite(((n + 8, HIGH);
 
   delay(200);
 }
+
+
+
 
