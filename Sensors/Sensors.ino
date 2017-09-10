@@ -4,9 +4,11 @@
 #include "MMA7660.h"
 MMA7660 accelemeter;
 
+int n = 0;
+
 void setup()
 {
-  accelemeter1.init();
+  accelemeter.init();
 
   Serial.begin(9600);
 
@@ -17,8 +19,8 @@ void setup()
   digitalWrite(0, LOW);
   digitalWrite(1, HIGH);
 //  digitalWrite(2, HIGH);
-    
-    int n = 0;
+
+
 
 }
 
