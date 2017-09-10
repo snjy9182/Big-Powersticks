@@ -33,13 +33,16 @@ void loop()
   accelemeter.getAcceleration(&ax,&ay,&az);
 
 
-  Serial.println("Sensor " + (n + 1));
-  Serial.println("x: " + ax);
-  Serial.println("y: " + ay);
-  Serial.println("z: " + az);
+  Serial.print(ax);
+  Serial.println(" g");
+  Serial.print(ay);
+  Serial.println(" g");
+  Serial.print(az);
+  Serial.println(" g");
  
   Serial.println("*************");
 
+  
 
 
   digitalWrite(8, LOW);
