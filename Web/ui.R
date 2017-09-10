@@ -8,7 +8,7 @@ library(rJava)
 
 shinyUI(fluidPage(theme = "bootstrap.css",
   
-  titlePanel(title = div(img(src = 'logo.png', height = 150, weight = 391.51, class="center-block")), 
+  titlePanel(title = div(img(src = 'logo.png', height = 100, weight = 261.33, class="center-block")), 
              windowTitle = "Mobum"),
   
   tabsetPanel(id = "section",
@@ -24,7 +24,8 @@ shinyUI(fluidPage(theme = "bootstrap.css",
                        ),
               tabPanel("How It Works",
                        img(src="internet.png", width = 1125, align = "left"),  
-                       img(src="bigdata.png", width = 1125, align = "left")),
+                       img(src="bigdata.png", width = 1125, align = "left"),
+                       img(src="tech2.png", width = 1125, align = "left")),
               tabPanel("Customize Your Healthcare",
                        fluidRow(
                          column(4,

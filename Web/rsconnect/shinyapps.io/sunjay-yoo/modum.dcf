@@ -1,0 +1,13 @@
+name: modum
+title: Modum
+username:
+account: sunjay-yoo
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 212847
+bundleId: 975136
+url: https://sunjay-yoo.shinyapps.io/modum/
+when: 1505051426.787
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: data.txt
