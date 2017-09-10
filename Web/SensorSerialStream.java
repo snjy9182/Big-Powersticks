@@ -98,8 +98,10 @@ public class SensorSerialStream implements SerialPortEventListener{
             if (oEvent.getEventType() == SerialPortEvent.DATA_AVAILABLE) {
 				try {
 					String inputLine=input.readLine();
-					System.out.println(inputLine);
-					out.println(inputLine);
+					if (b){
+						System.out.println(inputLine);
+						out.println(inputLine);
+					}
 				} catch (Exception e) {
 					System.err.println(e.toString());
 				}
@@ -109,7 +111,7 @@ public class SensorSerialStream implements SerialPortEventListener{
         }
 	}
 
-	public static void main(String[] args) throws Exception {
+	public static void runshit() throws Exception {
 		SensorSerialStream main = new SensorSerialStream();
 		main.initialize();
 		Thread t=new Thread() {

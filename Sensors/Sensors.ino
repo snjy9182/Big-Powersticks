@@ -16,9 +16,9 @@ void setup()
   pinMode(9, OUTPUT);
   pinMode(10, OUTPUT);
 
-  digitalWrite(8, HIGH);
+  digitalWrite(8, LOW);
   digitalWrite(9, LOW);
-  digitalWrite(10, LOW);
+  digitalWrite(10, HIGH);
 
 }
 
@@ -47,11 +47,11 @@ void loop()
 
   digitalWrite(8, LOW);
   digitalWrite(9, LOW);
-  digitalWrite(10, LOW);
+  //digitalWrite(10, LOW);
 
   n = (n + 1) % 3;
 
-  digitalWrite(((n + 8, HIGH);
+  //digitalWrite(n + 8, HIGH);
 
   delay(200);
 }
