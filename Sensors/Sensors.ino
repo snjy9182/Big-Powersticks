@@ -21,13 +21,14 @@ void loop()
   }
   Serial.println(mag);
   delay(150);
-  if (mag > 0.1){
-    digitalWrite(A3, HIGH);  
+  if (mag > 0.3){
+    digitalWrite(A0, HIGH);  
 
-    delay(150);
+    delay(650);
 
-    digitalWrite(A3, LOW);
+    digitalWrite(A0, LOW);
   }
 }
+
 
 

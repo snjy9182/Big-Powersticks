@@ -5,9 +5,9 @@ account: sunjay-yoo
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 212847
-bundleId: 975136
+bundleId: 975288
 url: https://sunjay-yoo.shinyapps.io/modum/
-when: 1505051426.787
+when: 1505063850.2602
 asMultiple: FALSE
 asStatic: FALSE
 ignoredFiles: data.txt
