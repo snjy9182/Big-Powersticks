@@ -1,9 +1,9 @@
 ## Welcome to Mobum!
-Serious misalignment and unnatural motions of the body can be signs that there is harm being done. We wanted to fill this need for an at-home wearable device to detect such harm while being low cost and low profile. We have developed a device (called Mobum) that works together with modular sensor devices (called Moodles) in order to create a platform for any sort of physical therapy, posture control, or exercise.  This allows any user to commit long-term to these therapies and develop better physical habits. Our web interface allows users to securely track your movements real time, easily develop your own custom routines, and even allow your physicians to access your progression and prescribe novel therapies.
+Serious misalignment and unnatural motions of the body can be signs that there is harm being done. We wanted to fill this need for an at-home wearable device to detect such harm while being low cost and low profile. We have developed a device (called Mobum) that works together with modular sensor devices (called Moodles) in order to create a platform for any sort of physical therapy, posture control, or exercise.  This allows any user to commit long-term to these therapies and develop better physical habits. Our web interface allows users to securely track your movements real time, easily develop your own custom routines, and even lets your physicians access your progression and prescribe novel therapies.
 
 ## Inspiration
 
-Physical therapy is inaccessible for a lot of people because of its long commitment, cost, and lack of real-time feedback. Many of us on the team has had problems with scoliosis, posture, athletic injuries, and exercise form- and its something all of us experience at some point. It was difficult to maintain good form and posture for our therapies, and its easy to forget what's correct. This is dangerous, so we thought of a solution to track this data and provide instant therapy feedback!
+Physical therapy is inaccessible for a lot of people because of its long commitment, cost, and lack of real-time feedback. Many of us on the team has had problems with scoliosis, posture, athletic injuries, and exercise form and it was difficult to maintain good form and posture for our therapies; its easy to forget what's correct. This is dangerous, so we thought of a solution to track this data and provide instant therapy at home!
 
 ## What it does
 
@@ -11,7 +11,7 @@ Mobum is an accelerometer based motion tracking system that can detect these err
 
 ## How We built it
 
-We used a discrete wired/wireless micro-controller connected to multiple I2C accelerometers to receive motion data. Additionally, an audio/visual signal is connected to give realtime feedback to the user of their form. Using a mix of Adruino code, R, C++, Shiny, and Java, we were able to receive this data through continuous serial data from our master/slave communication addresses and process it using our algorithms to provide on-device audio/visual feedback. Furthermore, a web interface (photos included), allow for users to explore their history securely, analyze their trends, and share data with physicians. Physicians and users can also prescribe and create custom motion regiments easily for all round safety!
+We used a discrete wired/wireless micro-controller connected to multiple I2C accelerometers to receive motion data. Additionally, an audio/visual signal is connected to give realtime feedback to the user of their form. Using a mix of R,  C, C++, Java, Shiny, HTML, and JavaScript, we were able to receive this data through continuous serial data from our master/slave communication addresses and process it using our algorithms to provide on-device audio/visual feedback. Furthermore, a web interface (photos included), allows for users to explore their history securely, analyze their trends, and share data with physicians. Physicians and users can also prescribe and create custom motion regiments easily for all round safety!
 
 ## Mobum Members:
 
