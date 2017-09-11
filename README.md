@@ -13,14 +13,14 @@ Mobum is an accelerometer based motion tracking system that can detect these err
 
 We used a discrete wired/wireless micro-controller connected to multiple I2C accelerometers to receive motion data. Additionally, an audio/visual signal is connected to give realtime feedback to the user of their form. Using a mix of Adruino code, R, C++, Shiny, and Java, we were able to receive this data through continuous serial data from our master/slave communication addresses and process it using our algorithms to provide on-device audio/visual feedback. Furthermore, a web interface (photos included), allow for users to explore their history securely, analyze their trends, and share data with physicians. Physicians and users can also prescribe and create custom motion regiments easily for all round safety!
 
-## Members:
+## Mobum Members:
 
-Sun Jay is Biomedical Engineering and Computer Science major at Johns Hopkins University, specializing in computational medicine, computer vision, and biodesign. He developed Mobum’s software pipeline and I2C interfacing algorithms.
+**Sun Jay Yoo** is Biomedical Engineering and Computer Science major at Johns Hopkins University, specializing in computational medicine, computer vision, and biodesign. He developed Mobum’s software pipeline, I2C interfacing algorithms, and dynamic web interface
 
-Tom is a mathematics major at Johns Hopkins University with a particular interest machine learning and computational medicine. He worked on Mobum’s motion algorithms and software development.
+**Tom Wan** is a mathematics major at Johns Hopkins University with a particular interest machine learning and computational medicine. He worked on Mobum’s advanced motion algorithms and software development for our Moodles
 
-Dan is a pre-med Computer Science major at Johns Hopkins, with a specialty in multiplexers and sensor technology. He worked on Mobum’s signal processing and software compatibility for our array of sensors and microcontrollers.
+**Dan Sohn** is a pre-med Computer Science major at Johns Hopkins, with a specialty in multiplexers and sensor technology. He worked on Mobum’s signal processing and software compatibility for our array of sensors and microcontrollers.
 
-Jack is a mechanical engineer at Johns Hopkins, specializing in motion dynamics and hardware engineering. He assembled and configured the Mobum and its Moodles, along with human-interfacing design-specs for scalability.
+**Jack Zheng** is a mechanical engineer at Johns Hopkins, specializing in motion dynamics and hardware engineering. He assembled and configured the Mobum and its Moodles, along with human-interfacing design-specs for scalability.
 
-Lilian is a Computer Science major at Johns Hopkins University, specializing in entrepreneurship, market research, and clinical validation. She heavily researched Mobum’s design criteria, along with needs validation and graphical design.
+**Lilian Zhou** is a Computer Science major at Johns Hopkins University, specializing in entrepreneurship, market research, and clinical validation. She heavily researched Mobum’s design criteria, along with needs validation and graphical design.
