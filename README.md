@@ -15,9 +15,9 @@ We used a discrete wired/wireless micro-controller connected to multiple I2C acc
 
 ## Mobum Members:
 
-**Sun Jay Yoo** is a Biomedical Engineering and Computer Science major at Johns Hopkins University, specializing in computational medicine, computer vision, and biodesign. He developed Mobum’s software pipeline, I2C interfacing algorithms, and dynamic web interface
+**Sun Jay Yoo** is a Biomedical Engineering and Computer Science major at Johns Hopkins University, specializing in computational medicine, computer vision, and biodesign. He developed Mobum’s software pipeline, I2C interfacing algorithms, and dynamic web interface.
 
-**Tom Wan** is a mathematics major at Johns Hopkins University with a particular interest machine learning and computational medicine. He worked on Mobum’s advanced motion algorithms and software development for our Moodles
+**Tom Wan** is a mathematics major at Johns Hopkins University with a particular interest machine learning and computational medicine. He worked on Mobum’s motion sensing algorithms and software development for our Moodles
 
 **Dan Sohn** is a pre-med Computer Science major at Johns Hopkins University, with a specialty in multiplexers and sensor technology. He worked on Mobum’s signal processing and software compatibility for our array of sensors and microcontrollers.
 
