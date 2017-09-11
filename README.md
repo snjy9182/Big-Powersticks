@@ -1,21 +1,17 @@
 ## Welcome to Mobum!
-Serious misalignment and unnatural motions of body positions can be signs that there is harm being done. We wanted to fill this unmet need for an at-home wearable movement tracker to detect such harm while being low cost and low profile. Allowing patients long term commitment to develop better physical habits and connecting them with physicians to develop custom therapy regiments would really push bounds of wearable tech for all!
+Serious misalignment and unnatural motions of the body can be signs that there is harm being done. We wanted to fill this need for an at-home wearable device to detect such harm while being low cost and low profile. We have developed a device (called Mobum) that works together with modular sensor devices (called Moodles) in order to create a platform for any sort of physical therapy, posture control, or exercise.  This allows any user to commit long-term to these therapies and develop better physical habits. Our web interface allows users to securely track your movements real time, easily develop your own custom routines, and even allow your physicians to access your progression and prescribe novel therapies.
 
 ## Inspiration
 
-Physical therapy is inaccessible for a lot of people since it requires a long commitment of frequent visits to achieve real results. At home, it's difficult to maintain form and know what is correct. Things like posture and workouts are easy to mess up, and proper form is often forget. This is dangerous.
+Physical therapy is inaccessible for a lot of people because of its long commitment, cost, and lack of real-time feedback. Many of us on the team has had problems with scoliosis, posture, athletic injuries, and exercise form- and its something all of us experience at some point. It was difficult to maintain good form and posture for our therapies, and its easy to forget what's correct. This is dangerous, so we thought of a solution to track this data and provide instant therapy feedback!
 
 ## What it does
 
-Mobum is an accelerometer based motion tracking system that can detect these errors. It uses data from three sensors (or more) and compares it to the given therapy or movement profile. By simply changing the profile on the device, device can help guide people to a different number of exercises and regiments. We use machine learning to take advantage of user's habits in a safe and secure way and allow better access to physical therapy.
+Mobum is an accelerometer based motion tracking system that can detect these errors in our movement (or lack thereof). It uses data from our three (or more) modular Moodle sensors and compares it to the given therapy or movement profile. This can correct for things like bad sitting posture, exercise regiment, our athletic injury recovery. By simply changing the profile on the device, this device can help guide people through a number of these profiles. We use machine learning to take advantage of user's habits in a safe and secure way and allow users to better connect themselves with their physicians, and themselves.
 
 ## How We built it
 
-We used an Arduino connected to three I2C accelerometers to receive motion data. Additionally, an audio/visual signal is connected to give realtime feedback to the user of their form. Using a mix of Adruino code, R, C++, Shiny, and Java, we were able to receive the data and nicely format graphs for the users. A web interface (photos included), allow for users to explore their history securely, analyze their trends, and share data with physicians. Physicians and users can also prescribe and create custom motion regiments easily for all round safety!
-
-## Challenges we ran into
-
-The biggest challenge was the ability to use multiple accelerometers with the Arduino. The accelerometers we had access to were hard set to certain addresses, so the master/slave communication was entangled between the different accelerometers.
+We used a discrete wired/wireless micro-controller connected to multiple I2C accelerometers to receive motion data. Additionally, an audio/visual signal is connected to give realtime feedback to the user of their form. Using a mix of Adruino code, R, C++, Shiny, and Java, we were able to receive this data through continuous serial data from our master/slave communication addresses and process it using our algorithms to provide on-device audio/visual feedback. Furthermore, a web interface (photos included), allow for users to explore their history securely, analyze their trends, and share data with physicians. Physicians and users can also prescribe and create custom motion regiments easily for all round safety!
 
 ## Members:
 
