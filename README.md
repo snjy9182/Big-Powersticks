@@ -19,8 +19,8 @@ We used a discrete wired/wireless micro-controller connected to multiple I2C acc
 
 **Tom Wan** is a mathematics major at Johns Hopkins University with a particular interest machine learning and computational medicine. He worked on Mobum’s advanced motion algorithms and software development for our Moodles
 
-**Dan Sohn** is a pre-med Computer Science major at Johns Hopkins, with a specialty in multiplexers and sensor technology. He worked on Mobum’s signal processing and software compatibility for our array of sensors and microcontrollers.
+**Dan Sohn** is a pre-med Computer Science major at Johns Hopkins University, with a specialty in multiplexers and sensor technology. He worked on Mobum’s signal processing and software compatibility for our array of sensors and microcontrollers.
 
-**Jack Zheng** is a mechanical engineer at Johns Hopkins, specializing in motion dynamics and hardware engineering. He assembled and configured the Mobum and its Moodles, along with human-interfacing design-specs for scalability.
+**Jack Zheng** is a mechanical engineer at Johns Hopkins University, specializing in motion dynamics and hardware engineering. He assembled and configured the Mobum and its Moodles, along with human-interfacing design-specs for scalability.
 
 **Lilian Zhou** is a Computer Science major at Johns Hopkins University, specializing in entrepreneurship, market research, and clinical validation. She heavily researched Mobum’s design criteria, along with needs validation and graphical design.
